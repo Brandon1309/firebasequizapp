@@ -1,0 +1,25 @@
+:root {
+  --color-primary: #476072;
+  --color-secondary: #334257;
+  --color-tertiary: #548CA8;
+  --color-background: #EEEEEE;
+  --color-text-white: #EEEEEE;
+  --color-text-black: #171010;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Georama', sans-serif;
+  // font-size: 62.5%;
+}
+
+body {
+  background-color: var(--color-background);
+}

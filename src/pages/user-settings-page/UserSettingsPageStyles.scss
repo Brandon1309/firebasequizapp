@@ -1,0 +1,46 @@
+.user-settings-page {
+    margin: 3rem 0;
+
+    & h1 {
+        text-align: center;
+        margin: 2rem;
+    }
+
+    & p {
+        margin: 1rem;
+    }
+
+    & input {
+
+        margin: 0 1rem;
+        width: 50%;
+    }
+
+    & .change-pass-section {
+        margin: 2rem 1rem;
+
+        & a {
+            text-decoration: none;
+            color: inherit;
+
+        }
+    }
+
+    img {
+        height: 10rem;
+        width: 10rem;
+        object-fit: cover;
+        margin: 1rem;
+
+    }
+
+
+
+
+
+}
+
+.cred-change-form {
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,27 @@
+.sign-in-page {
+    padding-top: 5rem;
+
+    & h1 {
+        text-align: center;
+    }
+
+    & form {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 50%;
+    }
+
+    & input {
+        margin: 2rem;
+    }
+
+    & a {
+        margin: -1rem 2.5rem;
+        font-size: .9rem;
+    }
+
+    & button {
+        margin: 2rem;
+    }
+}

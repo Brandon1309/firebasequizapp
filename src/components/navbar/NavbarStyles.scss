@@ -1,0 +1,42 @@
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    background-color: var(--color-secondary);
+    color: var(--color-text-white);
+    margin: 1rem 0;
+
+    & .logo {
+        margin-left: 2rem;
+    }
+
+
+}
+
+.secondary-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin-right: 2rem;
+
+    &__item {
+        margin: 1rem .5rem;
+
+        & a {
+            color: var(--color-text-white);
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+
+        & img {
+            height: 2rem;
+            width: 2rem;
+            object-fit: cover;
+            border-radius: 1000px;
+        }
+
+
+    }
+}
